@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#1E88E5</color>
+    <color name="floating_bg">#E6202124</color>
+    <color name="status_ok">#2E7D32</color>
+    <color name="status_bad">#C62828</color>
+</resources>
