@@ -35,16 +35,22 @@ On dual-screen devices such as the **AYN Thor**, MultiShot captures **all screen
 
 Get the APK from the **[latest release](https://github.com/mkaflowski/MultiShot/releases/latest)**.
 
+<p>
+  <a href="obtainium://add/https://github.com/mkaflowski/MultiShot"><img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" alt="Get it on Obtainium" height="60"></a>
+</p>
+
+Or add `https://github.com/mkaflowski/MultiShot` to [Obtainium](https://github.com/ImranR98/Obtainium) to get updates straight from GitHub releases.
+
 ## Setup
 
 1. Install the APK.
-2. Open MultiShot and tap **Ustawienia dostępności** (Accessibility settings). Enable **MultiShot – zrzuty ekranu**.
+2. Open MultiShot, tap **Accessibility settings** and enable **MultiShot – screenshots** (**MultiShot – zrzuty ekranu** in Polish).
 3. *(Android 13+, sideloaded APK)* If Android says the setting is restricted, go to **App info → ⋮ → Allow restricted settings** and try again.
-4. *(Optional)* Tap **Dodaj kafelek do szybkich ustawień** (Add tile to Quick Settings).
+4. *(Optional)* Tap **Add tile to Quick Settings**.
 
 > MultiShot uses an accessibility service only to take screenshots and to draw its floating button. Without root, this is the only Android API that can capture any chosen screen. The service does not read the content of your apps.
 
-The app's interface is currently in Polish.
+The interface is available in **English** (default) and **Polish**. The language follows your system language.
 
 ## Building
 

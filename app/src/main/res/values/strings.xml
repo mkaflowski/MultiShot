@@ -1,68 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MultiShot</string>
-    <string name="accessibility_label">MultiShot – zrzuty ekranu</string>
-    <string name="accessibility_description">Pozwala robić zrzuty ekranu pływającym przyciskiem – także na urządzeniach z kilkoma ekranami (np. AYN Thor). Usługa nie odczytuje treści okien; używa wyłącznie funkcji wykonywania zrzutu ekranu i wyświetlania nakładki z przyciskiem.</string>
-    <string name="tile_label">Przycisk zrzutu</string>
+    <string name="accessibility_label">MultiShot – screenshots</string>
+    <string name="accessibility_description">Lets you take screenshots with a floating button, including on devices with multiple screens (e.g. AYN Thor). The service does not read window content; it only uses the screenshot function and draws the button overlay.</string>
+    <string name="tile_label">Screenshot button</string>
 
     <!-- Status -->
-    <string name="section_status">Usługa</string>
-    <string name="status_running">Usługa zrzutów jest aktywna.</string>
-    <string name="status_stopped">Usługa zrzutów jest wyłączona. Włącz „MultiShot – zrzuty ekranu” w ustawieniach dostępności.</string>
-    <string name="status_restricted_hint">Jeśli aplikacja była instalowana z pliku APK, Android 13+ może zablokować usługę („Ustawienie z ograniczeniami”). Wtedy otwórz Informacje o aplikacji → menu ⋮ → „Zezwól na ustawienia z ograniczeniami” i spróbuj ponownie.</string>
-    <string name="btn_accessibility">Ustawienia dostępności</string>
-    <string name="btn_app_info">Informacje o aplikacji</string>
+    <string name="section_status">Service</string>
+    <string name="status_running">The screenshot service is active.</string>
+    <string name="status_stopped">The screenshot service is off. Enable \"MultiShot – screenshots\" in accessibility settings.</string>
+    <string name="status_restricted_hint">If the app was installed from an APK file, Android 13+ may block the service (\"Restricted setting\"). In that case open App info → ⋮ menu → \"Allow restricted settings\" and try again.</string>
+    <string name="btn_accessibility">Accessibility settings</string>
+    <string name="btn_app_info">App info</string>
 
-    <!-- Przycisk -->
-    <string name="section_button">Pływający przycisk</string>
-    <string name="switch_button">Pokaż pływający przycisk</string>
-    <string name="label_transparency">Przezroczystość: %1$d%%</string>
-    <string name="label_size">Rozmiar: %1$d dp</string>
-    <string name="label_button_display">Ekran, na którym jest przycisk</string>
-    <string name="hint_button">Dotknij – zrzut ekranu. Przeciągnij – przesuń. Przytrzymaj – otwórz ustawienia.</string>
-    <string name="button_description">Zrób zrzut ekranu</string>
+    <!-- Button -->
+    <string name="section_button">Floating button</string>
+    <string name="switch_button">Show floating button</string>
+    <string name="label_transparency">Transparency: %1$d%%</string>
+    <string name="label_size">Size: %1$d dp</string>
+    <string name="label_button_display">Screen the button appears on</string>
+    <string name="hint_button">Tap – take a screenshot. Drag – move. Long-press – open settings.</string>
+    <string name="button_description">Take a screenshot</string>
 
-    <!-- Zrzut -->
-    <string name="section_capture">Zrzut ekranu</string>
-    <string name="label_displays_found">Wykryte ekrany: %1$d</string>
-    <string name="mode_all_stacked">Wszystkie ekrany – jeden pod drugim (domyślnie)</string>
-    <string name="mode_all_separate">Wszystkie ekrany – osobne pliki</string>
-    <string name="mode_single">Tylko: %1$s</string>
-    <string name="mode_single_missing">Tylko ekran #%1$d (obecnie niedostępny)</string>
-    <string name="hint_capture">Zrzuty trafiają do Pictures/Screenshots. Wyłączone ekrany są pomijane.</string>
+    <!-- Capture -->
+    <string name="section_capture">Screenshot</string>
+    <string name="label_displays_found">Detected screens: %1$d</string>
+    <string name="mode_all_stacked">All screens – stacked top to bottom (default)</string>
+    <string name="mode_all_separate">All screens – separate files</string>
+    <string name="mode_single">Only: %1$s</string>
+    <string name="mode_single_missing">Only screen #%1$d (currently unavailable)</string>
+    <string name="hint_capture">Screenshots are saved to Pictures/Screenshots. Turned-off screens are skipped.</string>
     <string name="display_label">%1$s (#%2$d, %3$d×%4$d)</string>
-    <string name="display_label_off">%1$s (#%2$d, %3$d×%4$d, wyłączony)</string>
+    <string name="display_label_off">%1$s (#%2$d, %3$d×%4$d, off)</string>
 
-    <!-- Potwierdzenie zrzutu -->
-    <string name="section_feedback">Potwierdzenie zrzutu</string>
-    <string name="switch_vibrate">Lekka wibracja</string>
-    <string name="switch_sound">Dźwięk migawki</string>
-    <string name="switch_toast">Komunikat „Zapisano zrzut”</string>
-    <string name="hint_feedback">Błędy są pokazywane zawsze, także przy wyłączonym komunikacie.</string>
+    <!-- Capture feedback -->
+    <string name="section_feedback">Capture feedback</string>
+    <string name="switch_vibrate">Light vibration</string>
+    <string name="switch_sound">Shutter sound</string>
+    <string name="switch_toast">\"Screenshot saved\" message</string>
+    <string name="hint_feedback">Errors are always shown, even when the message is turned off.</string>
 
     <!-- Quick settings -->
-    <string name="section_tile">Szybkie ustawienia</string>
-    <string name="hint_tile">Kafelek „Przycisk zrzutu” w panelu szybkich ustawień włącza i wyłącza pływający przycisk. Możesz go dodać ręcznie (edycja kafelków) albo przyciskiem poniżej.</string>
-    <string name="btn_add_tile">Dodaj kafelek do szybkich ustawień</string>
-    <string name="tile_added">Kafelek dodany.</string>
-    <string name="tile_already_added">Kafelek jest już dodany.</string>
-    <string name="tile_not_added">Kafelek nie został dodany.</string>
-    <string name="tile_subtitle_on">Widoczny</string>
-    <string name="tile_subtitle_off">Ukryty</string>
-    <string name="tile_subtitle_no_service">Włącz usługę</string>
+    <string name="section_tile">Quick Settings</string>
+    <string name="hint_tile">The \"Screenshot button\" tile in the Quick Settings panel shows or hides the floating button. You can add it manually (edit tiles) or with the button below.</string>
+    <string name="btn_add_tile">Add tile to Quick Settings</string>
+    <string name="tile_added">Tile added.</string>
+    <string name="tile_already_added">The tile is already added.</string>
+    <string name="tile_not_added">The tile was not added.</string>
+    <string name="tile_subtitle_on">Visible</string>
+    <string name="tile_subtitle_off">Hidden</string>
+    <string name="tile_subtitle_no_service">Enable service</string>
 
-    <!-- Komunikaty -->
-    <string name="msg_saved_stacked">Zapisano zrzut: %1$s, jeden pod drugim</string>
-    <string name="msg_saved_single">Zapisano zrzut ekranu</string>
-    <string name="msg_saved_separate">Zapisano osobne zrzuty: %1$s</string>
-    <string name="msg_skipped">Pominięto: %1$s</string>
-    <string name="msg_failed">Nie udało się zrobić zrzutu (%1$s)</string>
-    <string name="msg_save_failed">Nie udało się zapisać zrzutu</string>
-    <string name="msg_failure_item">ekran #%1$d – błąd %2$d</string>
+    <!-- Messages -->
+    <string name="msg_saved_stacked">Screenshot saved: %1$s, stacked</string>
+    <string name="msg_saved_single">Screenshot saved</string>
+    <string name="msg_saved_separate">Separate screenshots saved: %1$s</string>
+    <string name="msg_skipped">Skipped: %1$s</string>
+    <string name="msg_failed">Could not take screenshot (%1$s)</string>
+    <string name="msg_save_failed">Could not save screenshot</string>
+    <string name="msg_failure_item">screen #%1$d – error %2$d</string>
     <plurals name="screens">
-        <item quantity="one">%d ekran</item>
-        <item quantity="few">%d ekrany</item>
-        <item quantity="many">%d ekranów</item>
-        <item quantity="other">%d ekranu</item>
+        <item quantity="one">%d screen</item>
+        <item quantity="other">%d screens</item>
     </plurals>
 </resources>

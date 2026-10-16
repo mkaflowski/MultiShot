@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiShot</string>
+    <string name="accessibility_label">MultiShot – zrzuty ekranu</string>
+    <string name="accessibility_description">Pozwala robić zrzuty ekranu pływającym przyciskiem – także na urządzeniach z kilkoma ekranami (np. AYN Thor). Usługa nie odczytuje treści okien; używa wyłącznie funkcji wykonywania zrzutu ekranu i wyświetlania nakładki z przyciskiem.</string>
+    <string name="tile_label">Przycisk zrzutu</string>
+
+    <!-- Status -->
+    <string name="section_status">Usługa</string>
+    <string name="status_running">Usługa zrzutów jest aktywna.</string>
+    <string name="status_stopped">Usługa zrzutów jest wyłączona. Włącz „MultiShot – zrzuty ekranu” w ustawieniach dostępności.</string>
+    <string name="status_restricted_hint">Jeśli aplikacja była instalowana z pliku APK, Android 13+ może zablokować usługę („Ustawienie z ograniczeniami”). Wtedy otwórz Informacje o aplikacji → menu ⋮ → „Zezwól na ustawienia z ograniczeniami” i spróbuj ponownie.</string>
+    <string name="btn_accessibility">Ustawienia dostępności</string>
+    <string name="btn_app_info">Informacje o aplikacji</string>
+
+    <!-- Przycisk -->
+    <string name="section_button">Pływający przycisk</string>
+    <string name="switch_button">Pokaż pływający przycisk</string>
+    <string name="label_transparency">Przezroczystość: %1$d%%</string>
+    <string name="label_size">Rozmiar: %1$d dp</string>
+    <string name="label_button_display">Ekran, na którym jest przycisk</string>
+    <string name="hint_button">Dotknij – zrzut ekranu. Przeciągnij – przesuń. Przytrzymaj – otwórz ustawienia.</string>
+    <string name="button_description">Zrób zrzut ekranu</string>
+
+    <!-- Zrzut -->
+    <string name="section_capture">Zrzut ekranu</string>
+    <string name="label_displays_found">Wykryte ekrany: %1$d</string>
+    <string name="mode_all_stacked">Wszystkie ekrany – jeden pod drugim (domyślnie)</string>
+    <string name="mode_all_separate">Wszystkie ekrany – osobne pliki</string>
+    <string name="mode_single">Tylko: %1$s</string>
+    <string name="mode_single_missing">Tylko ekran #%1$d (obecnie niedostępny)</string>
+    <string name="hint_capture">Zrzuty trafiają do Pictures/Screenshots. Wyłączone ekrany są pomijane.</string>
+    <string name="display_label">%1$s (#%2$d, %3$d×%4$d)</string>
+    <string name="display_label_off">%1$s (#%2$d, %3$d×%4$d, wyłączony)</string>
+
+    <!-- Potwierdzenie zrzutu -->
+    <string name="section_feedback">Potwierdzenie zrzutu</string>
+    <string name="switch_vibrate">Lekka wibracja</string>
+    <string name="switch_sound">Dźwięk migawki</string>
+    <string name="switch_toast">Komunikat „Zapisano zrzut”</string>
+    <string name="hint_feedback">Błędy są pokazywane zawsze, także przy wyłączonym komunikacie.</string>
+
+    <!-- Quick settings -->
+    <string name="section_tile">Szybkie ustawienia</string>
+    <string name="hint_tile">Kafelek „Przycisk zrzutu” w panelu szybkich ustawień włącza i wyłącza pływający przycisk. Możesz go dodać ręcznie (edycja kafelków) albo przyciskiem poniżej.</string>
+    <string name="btn_add_tile">Dodaj kafelek do szybkich ustawień</string>
+    <string name="tile_added">Kafelek dodany.</string>
+    <string name="tile_already_added">Kafelek jest już dodany.</string>
+    <string name="tile_not_added">Kafelek nie został dodany.</string>
+    <string name="tile_subtitle_on">Widoczny</string>
+    <string name="tile_subtitle_off">Ukryty</string>
+    <string name="tile_subtitle_no_service">Włącz usługę</string>
+
+    <!-- Komunikaty -->
+    <string name="msg_saved_stacked">Zapisano zrzut: %1$s, jeden pod drugim</string>
+    <string name="msg_saved_single">Zapisano zrzut ekranu</string>
+    <string name="msg_saved_separate">Zapisano osobne zrzuty: %1$s</string>
+    <string name="msg_skipped">Pominięto: %1$s</string>
+    <string name="msg_failed">Nie udało się zrobić zrzutu (%1$s)</string>
+    <string name="msg_save_failed">Nie udało się zapisać zrzutu</string>
+    <string name="msg_failure_item">ekran #%1$d – błąd %2$d</string>
+    <plurals name="screens">
+        <item quantity="one">%d ekran</item>
+        <item quantity="few">%d ekrany</item>
+        <item quantity="many">%d ekranów</item>
+        <item quantity="other">%d ekranu</item>
+    </plurals>
+</resources>
